@@ -4,7 +4,7 @@ const app = new koa();
 
 //配置中间件
 app.use(async (ctx) => {
-    ctx.body = 'hello koa2 666'
+    ctx.body = '你好 koa2 666'
 });
 
 //监听端口
